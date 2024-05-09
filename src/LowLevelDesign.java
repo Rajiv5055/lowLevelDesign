@@ -1,13 +1,12 @@
-import singletonDesignPatterns.SingletoneDesignClass;
-import strategyDesignPattern.StrategyPatternClass;
+import DesignPatterns.SingletonDesignPattern.SingletoneDesignClass;
 
 public class LowLevelDesign {
     public static void main(String[] args) {
 
-//        singletonDesignPatterns.SingletoneDesignClass singletoneDesignClass = new SingletoneDesignClass();
-//        singletoneDesignClass.Execute();
+        SingletoneDesignClass singletoneDesignClass = new SingletoneDesignClass();
+        singletoneDesignClass.Execute();
 
-        strategyDesignPattern.StrategyPatternClass strategyPatternClass = new StrategyPatternClass();
-        strategyPatternClass.Execute();
+//        StrategyPatternClass strategyPatternClass = new StrategyPatternClass();
+//        strategyPatternClass.Execute();
     }
 }
