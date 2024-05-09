@@ -1,0 +1,7 @@
+ADDUSER U1 Rajiv 5000
+U1 Rajiv 5000.0
+BOOK U1 DEL BLR B123 Airline1 2 F2 A1 A2
+Ticket Booked successFully
+Invalid command
+BOOK U1 DEL BLR B123 Airline1 2 F2 A1 A2
+Exception Occurred : All asked seats are not available
