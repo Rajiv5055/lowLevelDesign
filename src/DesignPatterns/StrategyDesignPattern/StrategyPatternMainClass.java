@@ -5,9 +5,9 @@ import DesignPatterns.StrategyDesignPattern.impl.Bird;
 import DesignPatterns.StrategyDesignPattern.impl.FlappingStrategy;
 import DesignPatterns.StrategyDesignPattern.impl.RunwayFlyStrategy;
 import DesignPatterns.StrategyDesignPattern.interfaces.*;
-public class StrategyPatternClass {
+public class StrategyPatternMainClass {
 
-    public void Execute(){
+    public static void execute(){
         FlyStrategyService runwayStrategy = new RunwayFlyStrategy();
         FlyStrategyService flappingStrategy = new FlappingStrategy();
 

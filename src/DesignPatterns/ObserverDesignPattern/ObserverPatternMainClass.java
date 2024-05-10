@@ -5,9 +5,9 @@ import DesignPatterns.ObserverDesignPattern.observable.Obervable;
 import DesignPatterns.ObserverDesignPattern.observer.Observer;
 import DesignPatterns.ObserverDesignPattern.observer.UserObserver;
 
-public class ObserverMainClass {
+public class ObserverPatternMainClass {
 
-    public void execute(){
+    public static void execute(){
         Obervable obervable = new IphoneObervable("Iphone");
         Observer observer1 = new UserObserver("User1", obervable);
         Observer observer2 = new UserObserver("User2", obervable);

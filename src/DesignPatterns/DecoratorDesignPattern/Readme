@@ -1,0 +1,5 @@
+Decorator design pattern can be used where one base is there and user can add addon on top of base.
+
+eg : base vehical with extra features
+     coffe vending machine
+     Pizza shop

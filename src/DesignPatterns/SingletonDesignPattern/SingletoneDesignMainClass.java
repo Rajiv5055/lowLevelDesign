@@ -1,7 +1,7 @@
 package DesignPatterns.SingletonDesignPattern;
 
-public class SingletoneDesignClass {
-    public void Execute(){
+public class SingletoneDesignMainClass {
+    public static void execute(){
         SingletonDriverClass singletonDriverClass1 = new SingletonDriverClass();
         SingletonDriverClass singletonDriverClass2 = new SingletonDriverClass();
         singletonDriverClass1.getInstance();

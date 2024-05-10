@@ -7,9 +7,14 @@ public class SingletonDriverClass {
 
     private static SingletonClass singletonClass;
 
+//    lazy initialization with dual lock
     public SingletonClass getInstance(){
         if(this.singletonClass == null){
-            this.singletonClass = new SingletonClass();
+            synchronized(this) {
+                if(singletonClass == null){
+                    this.singletonClass = new SingletonClass();
+                }
+            }
         }
         return this.singletonClass;
     }

@@ -1,16 +1,10 @@
-import DesignPatterns.ObserverDesignPattern.ObserverMainClass;
-import DesignPatterns.SingletonDesignPattern.SingletoneDesignClass;
+import DesignPatterns.DecoratorDesignPattern.DecoratorDesignMainClass;
+import DesignPatterns.ObserverDesignPattern.ObserverPatternMainClass;
+import DesignPatterns.ProxyDesignPattern.ProxyDesignMainClass;
+import DesignPatterns.StrategyDesignPattern.StrategyPatternMainClass;
 
 public class LowLevelDesign {
     public static void main(String[] args) {
-
-//        SingletoneDesignClass singletoneDesignClass = new SingletoneDesignClass();
-//        singletoneDesignClass.Execute();
-
-//        StrategyPatternClass strategyPatternClass = new StrategyPatternClass();
-//        strategyPatternClass.Execute();
-
-        ObserverMainClass observerMainClass = new ObserverMainClass();
-        observerMainClass.execute();
+        ProxyDesignMainClass.execute();
     }
 }
