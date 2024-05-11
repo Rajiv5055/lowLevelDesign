@@ -1,0 +1,6 @@
+
+Template pattern is used when there is requirement that every concrete class should
+follow common procedure but also provides flexibility to implement their sequential methods (steps) separately.
+
+Eg :
+1) All payment methods follow common criteria like validating request, checking all charges, getting final amount and then payment.

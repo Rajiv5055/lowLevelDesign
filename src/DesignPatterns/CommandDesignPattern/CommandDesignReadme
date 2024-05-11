@@ -1,0 +1,8 @@
+Command desgin pattern is a behavioural design patterns which is used when there is a implementation of commands and requirement of undo, redo.
+
+It basically divides complete flow into invoker, receiver and command
+
+for undo in invoker class we will use stack to store command history
+Eg :
+1) copy paste
+2) remote controls

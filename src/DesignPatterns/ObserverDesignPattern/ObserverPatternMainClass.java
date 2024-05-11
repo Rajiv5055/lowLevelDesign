@@ -14,6 +14,12 @@ public class ObserverPatternMainClass {
         obervable.add(observer1);
         obervable.add(observer2);
 
+//        Obervable obervable = new IphoneObervable("Iphone");
+//        Observer observer1 = new UserObserver("User1");
+//        Observer observer2 = new UserObserver("User2");
+//        obervable.add(observer1);
+//        obervable.add(observer2);
+
         obervable.setItemQuantity(10);
 
     }

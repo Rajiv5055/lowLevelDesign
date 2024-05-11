@@ -1,0 +1,9 @@
+Singleton pattern is used when only one instantiation is required for any class.
+
+Types :
+1) Eager initiation
+2) Lazy initiation ( dual lock initiation or single lock initiation for multiple thread handling)
+
+Eg :
+Beans in Springboot initialized only once when project deployed on servers.
+Datasource configurations

@@ -40,6 +40,7 @@ public class IphoneObervable implements Obervable {
     @Override
     public void notifyObervers(int quantity) {
         for(Observer observer : this.observerList){
+//            observer.update(this);
             observer.update();
         }
     }

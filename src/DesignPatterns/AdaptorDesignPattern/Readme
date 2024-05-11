@@ -1,0 +1,5 @@
+Adaptor design patterns is used when there is requirement of converting response or functions from existing to new format.
+
+eg :
+1) client requires XML format response but existing api providing in JSON.
+2) charger and Socket

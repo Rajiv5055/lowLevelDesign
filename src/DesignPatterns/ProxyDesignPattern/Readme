@@ -1,0 +1,7 @@
+Proxy design patterns  used when there is a requirement of any operation before calling main method
+or after getting response from main mehtod.
+
+eg :
+1) logging purpose
+2) validating access
+3) producing events (for notification or any other thing)
