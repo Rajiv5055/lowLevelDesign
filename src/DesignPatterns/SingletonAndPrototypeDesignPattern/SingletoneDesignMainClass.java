@@ -1,4 +1,4 @@
-package DesignPatterns.SingletonDesignPattern;
+package DesignPatterns.SingletonAndPrototypeDesignPattern;
 
 public class SingletoneDesignMainClass {
     public static void execute(){
@@ -11,5 +11,11 @@ public class SingletoneDesignMainClass {
         singletonDriverClass2.incrementId();
         System.out.println(singletonDriverClass2.getId());
 
+        ProtoTypeConcrete prototype = new ProtoTypeConcrete("1", "name", "number");
+
+        ProtoTypeConcrete newPrototype = (ProtoTypeConcrete) prototype.clone();
+
+        prototype.method();
+        newPrototype.method();
     }
 }

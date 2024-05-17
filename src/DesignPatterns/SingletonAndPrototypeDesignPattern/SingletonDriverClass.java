@@ -1,4 +1,4 @@
-package DesignPatterns.SingletonDesignPattern;
+package DesignPatterns.SingletonAndPrototypeDesignPattern;
 
 public class SingletonDriverClass {
 

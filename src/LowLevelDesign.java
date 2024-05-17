@@ -6,11 +6,13 @@ import DesignPatterns.DecoratorDesignPattern.DecoratorDesignMainClass;
 import DesignPatterns.IteratorDesignPattern.IteratorMainClass;
 import DesignPatterns.ObserverDesignPattern.ObserverPatternMainClass;
 import DesignPatterns.ProxyDesignPattern.ProxyDesignMainClass;
+import DesignPatterns.SingletonAndPrototypeDesignPattern.SingletoneDesignMainClass;
 import DesignPatterns.StrategyDesignPattern.StrategyPatternMainClass;
 import DesignPatterns.TemplateDesignPattern.TemplatePatternMainClass;
+import MultiThreading.src.Multithreading;
 
 public class LowLevelDesign {
-    public static void main(String[] args) {
-        CompositeDesignMainClass.execute();
+    public static void main(String[] args) throws Exception {
+        SingletoneDesignMainClass.execute();
     }
 }

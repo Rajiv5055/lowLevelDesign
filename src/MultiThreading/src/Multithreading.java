@@ -3,7 +3,7 @@ package MultiThreading.src;
 import MultiThreading.src.Counter;
 
 public class Multithreading {
-    public void execute() throws Exception {
+    public static void execute() throws Exception {
         Counter counter = new Counter();
 //        for(int i=0;i<1000;i++){
 //            counter.increment();
@@ -28,7 +28,7 @@ public class Multithreading {
         t2.start();
 
         t1.join();
-        t2.join();
+        t2.join(); // to sync code with threads result;
 
         System.out.println(counter.getCounter());
 
