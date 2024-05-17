@@ -1,0 +1,6 @@
+Facade desgin pattern is used when there is a requirement of restricting the functionality in existing implementation.
+It provides client a flexibility to use existing or restricted class object method;
+
+-> Diff between facade and proxy :
+  In proxy, proxy class implements same abstract/ interface class but in facade new abstract and concrete class implemented.
+
