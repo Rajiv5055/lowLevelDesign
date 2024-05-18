@@ -1,0 +1,5 @@
+Behavioural design patterns when multiple concrete classes of same abstract class sequenctially dependant on each other.
+
+Eg : Logging system log levels depends on each other.
+ATM note controlling system
+Vending machine.
