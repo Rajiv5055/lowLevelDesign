@@ -1,0 +1,4 @@
+Behavioral design pattern
+this is used to add new operation to existing classes without changing its structure.
+It does double dispatch to achieve this.
+
