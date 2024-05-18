@@ -6,6 +6,7 @@ import DesignPatterns.CompositeDesignPattern.CompositeDesignMainClass;
 import DesignPatterns.DecoratorDesignPattern.DecoratorDesignMainClass;
 import DesignPatterns.InterpreterDesignPattern.InterpreterDesignMainClass;
 import DesignPatterns.IteratorDesignPattern.IteratorMainClass;
+import DesignPatterns.MediatorDesignPattern.MediatorDesignMainClass;
 import DesignPatterns.ObserverDesignPattern.ObserverPatternMainClass;
 import DesignPatterns.ProxyDesignPattern.ProxyDesignMainClass;
 import DesignPatterns.SingletonAndPrototypeDesignPattern.SingletoneDesignMainClass;
@@ -16,6 +17,6 @@ import MultiThreading.src.Multithreading;
 
 public class LowLevelDesign {
     public static void main(String[] args) throws Exception {
-        VisitorPatterMainClass.execute();
+        MediatorDesignMainClass.execute();
     }
 }

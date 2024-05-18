@@ -1,0 +1,5 @@
+Behavioral design pattern
+It encaurages loose coupling by keeping objects from referring
+to each other explicitely and allows them to communicate through a mediator object.
+
+eg : online bidding system
