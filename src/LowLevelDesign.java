@@ -17,6 +17,6 @@ import MultiThreading.src.Multithreading;
 
 public class LowLevelDesign {
     public static void main(String[] args) throws Exception {
-        MediatorDesignMainClass.execute();
+        Multithreading.execute();
     }
 }

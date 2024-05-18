@@ -1,0 +1,7 @@
+Lifecycle of java threads :
+
+1) New -> thread is initialized but not yet started.
+2) Runnable -> After invocation of runnable but before getting selected by thread scheduler to run.
+3) Running -> Thread is now selected by thread scheduler to execute.
+4) Not running -> Thread is alive but not running (consuming processor waiting for something)
+5) Terminated -> Exectution of thread is completed and now it is terminated (run method is exited).
