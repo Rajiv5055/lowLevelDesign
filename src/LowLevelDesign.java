@@ -16,8 +16,20 @@ import DesignPatterns.VisitorDesignPattern.VisitorPatterMainClass;
 import FileHandling.FileMainClass;
 import MultiThreading.src.Multithreading;
 
+@FunctionalInterface
+interface DemoInterface{
+    void demoFunction(int a);
+}
 public class LowLevelDesign {
     public static void main(String[] args) throws Exception {
-        FileMainClass.execute();
+//        FileMainClass.execute();
+
+//        lambda function
+        DemoInterface demoInterface = (a)->{
+          System.out.println("This is a demo method");
+        };
+
+        demoInterface.demoFunction(6);
+
     }
 }
