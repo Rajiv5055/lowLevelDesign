@@ -8,7 +8,8 @@ import java.util.Scanner;
 import CleartripSolution.src.InMemory.*;
 
 public class CleartripSolution {
-    public void execute() {
+    public void execute()
+    {
 
         Scanner sc = new Scanner(System.in);
         UserInMemory userInMemory = new UserInMemory();
