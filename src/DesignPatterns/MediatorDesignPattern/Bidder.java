@@ -17,7 +17,7 @@ public class Bidder implements Colleague{
 
     @Override
     public void receiveNotification(Long bidAmount) {
-        System.out.println("Bidder : "+ name + "get notification that bid had been set to : " + bidAmount);
+        System.out.println("Bidder : "+ name + " get notification that bid had been set to : " + bidAmount);
     }
 
     @Override

@@ -13,7 +13,7 @@ import java.io.FileInputStream;
 import java.util.Scanner;
 
 public class MetroCard {
-    public static void main(String[] args) {
+    public static void execute(String[] args) {
 
         MetroCardInmemory metroCardInmemory = new MetroCardInmemory();
         MetroCardService metroCardService = new MetroCardService(metroCardInmemory);

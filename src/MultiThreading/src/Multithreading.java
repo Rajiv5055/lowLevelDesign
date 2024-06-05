@@ -62,10 +62,10 @@ public class Multithreading {
 //        t2.join(); // to sync code with threads result;
 
 //        System.out.println(counter.getCounter());
-
         MyRunnable1 t1 = new MyRunnable1();
         t1.setPriority(1);
         t1.start();
+        t1.run();
         MyRunnable2 r2 = new MyRunnable2();
         Thread t2 = new Thread(r2);
         // it is used to add wait time in code
