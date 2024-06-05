@@ -16,6 +16,7 @@ import DesignPatterns.TemplateDesignPattern.TemplatePatternMainClass;
 import DesignPatterns.VisitorDesignPattern.VisitorPatterMainClass;
 import FileHandling.FileMainClass;
 import MultiThreading.src.Multithreading;
+import MultiThreading.src.ProducerConsumer;
 import MultiThreading.src.ThreadPool;
 import netscape.javascript.JSObject;
 
@@ -42,7 +43,8 @@ public class LowLevelDesign {
 //
 //        demoInterface.demoFunction(6);
 
-        ThreadPool.execute();
+//        ThreadPool.execute();
 
+        ProducerConsumer.execute();
     }
 }

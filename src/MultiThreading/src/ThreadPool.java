@@ -22,6 +22,8 @@ class CustomRejectionPolicy implements RejectedExecutionHandler{
 public class ThreadPool {
 
     public static void execute(){
+
+        System.out.println("Thread name : " + Thread.currentThread().getName());
         ThreadPoolExecutor executor = new ThreadPoolExecutor(2, 4, 10, TimeUnit.MINUTES, new ArrayBlockingQueue<>(2), new CustonThreadFactory(), new CustomRejectionPolicy());
         executor.allowCoreThreadTimeOut(true);
         for(int i=1;i<7;i++){
